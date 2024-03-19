@@ -1,2 +1,2 @@
-# GetThingsDone a to do list with vue
+# GetThingsDone a to-do list app with vue
  
