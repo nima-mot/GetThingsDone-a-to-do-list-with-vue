@@ -5,7 +5,7 @@
 	--light: #EEE;
 	--grey: #888;
 	--dark: #313154;
-	--danger: #f74c49;
+	--danger: #ff4845;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
@@ -176,7 +176,7 @@ input:checked ~ .bubble::after {
 .todo-list .todo-item {
 	display: flex;
 	align-items: center;
-	background-color: #FFF;
+	background-color: #ffffff;
 	padding: 1rem;
 	border-radius: 0.5rem;
 	box-shadow: var(--shadow);
@@ -207,13 +207,14 @@ input:checked ~ .bubble::after {
 	display: block;
 	padding: 0.5rem;
 	border-radius: 0.25rem;
-	color: #FFF;
+	background-color: var(--danger);
+	color: #ffffff;
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
 }
 
 .todo-item .actions button:hover {
-	opacity: 0.75;
+	opacity: 0.65;
 }
 
 .todo-item .actions .edit {
